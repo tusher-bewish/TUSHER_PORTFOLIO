@@ -93,10 +93,40 @@ a{
     color: #f8f8f8;
     background-color: orangered;
     border-radius: 20px;
-    border: 5px solid black;
+    border: 5px solid rgb(31, 29, 29);
 }
 .tusher-pic{
       width: 300px;
   border-radius: 50%;
-  border: 5px solid #271010;
+  border: 5px solid white;
+}
+footer{
+    background-color: #ffd2d2;
+}
+.h2text{
+    text-align: center;
+    align-items: center; 
+    padding: 40px;
+}
+
+.h3text{
+    justify-content: center;
+    text-align: center;
+    line-height: 0.4;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+.item li {
+    padding: 30px;
+    border-radius: 5px;
 }
