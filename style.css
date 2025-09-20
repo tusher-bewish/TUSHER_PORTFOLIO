@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body{
+      background: #f8f8f8;
+  color: #333;
+}
+.navebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #222;
+  color: #fff;
+
+}
+.navelogo{
+     font-size: 24px;
+  font-weight: bold;
+}
+.navul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    color: antiquewhite;
+}
+.navul a{
+    text-decoration: none;
+    color: #eee;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+}
+.btm{
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid rgb(231, 10, 10);
+    transition: o.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.btm:hover{
+    color: #fff;
+    background-color: chocolate;
+}
+.tusher{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  min-height: 90vh;
+}
+.text h1{
+    font-size: 50px;
+
+}
+.text h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.text p{
+    margin: 15px 0;
+    max-width: 500px;
+    line-height: 1.6;
+
+}
+.buttons{
+ margin-top: 20px;  
+}
+
+.btn{
+ display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.dark{
+    color: #eee;
+    background-color: #222;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.orreng{
+
+    color: #f8f8f8;
+    background-color: orangered;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.tusher-pic{
+      width: 300px;
+  border-radius: 50%;
+  border: 5px solid #271010;
+}
