@@ -101,32 +101,37 @@ a{
   border: 5px solid white;
 }
 footer{
-    background-color: #ffd2d2;
+    margin: 0%;
+    padding: 20px;
+    background-color: salmon;
+    font-family: cursive;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 247, 247);
 }
-.h2text{
+.footer-contaniar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    align-items: center; 
-    padding: 40px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
 }
-
-.h3text{
-    justify-content: center;
+.footer-coloum{
     text-align: center;
-    line-height: 0.4;
+    gap: 20px;
+    padding: 20px;
+    line-height: 1.5;
+    list-style: none;
 }
-
-.item{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
+.footer-coloum ul{
     text-decoration: none;
     list-style: none;
-    padding: 20px;
+    color:white ;
+
 }
-.item li {
-    padding: 30px;
-    border-radius: 5px;
+.footer-coloum ul a{
+    text-decoration: none;
+    color: rgb(39, 37, 37);
 }
